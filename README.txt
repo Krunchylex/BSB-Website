@@ -6,6 +6,11 @@ Update log:
 - Basic site structure established, all necessary basic pages created
 - Bartik theme still in place, final page styling already designed, not yet implemented
 
+4/6/18: Intermediate steps
+- Updated modules and composer.json
+- Added another theme to site that should work better than Bartik
+- Due to time constraints, decided using existing theme is best for 3SB and focus should be on content
+
 To be implemented:
 - Final theme and design elements
 - Information to populate non-front pages
