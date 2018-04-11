@@ -11,12 +11,7 @@ Update log:
 - Added another theme to site that should work better than Bartik
 - Due to time constraints, decided using existing theme is best for 3SB and focus should be on content
 
-4/11/18: Theme added
-- Made switch to Bootstrap theme
-- Groundword laid for custom sub-theme creation
-- Updated dependencies
-
 To be implemented:
-- Final visual assets
-- Information to populate pages
+- Final theme and design elements
+- Information to populate non-front pages
 - Integration with Lordmau5's Super Marathon Maker
