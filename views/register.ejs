@@ -1,4 +1,14 @@
 <% include partials/header %>
 
-    <h1>BSB Register User</h1>
+<div class="container container-fluid">
+    <h1>Register New Account</h1>
+
+    <form action="/register" method="POST">
+        <input type="text" name="username" placeholder="username">
+        <input type="text" name="email" placeholder="email">
+        <input type="text" name="password" placeholder="password">
+        <button>Submit</button>
+    </form>
+</div>
+
 <% include partials/footer %>

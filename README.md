@@ -3,6 +3,12 @@ Repository for the BSB webpage source
 
 Update notes:
 
+8/7/2019
+- Basic layouts for main, about, and login/register pages done
+- Installed dependencies for authentication and databases
+- Created schemas for users and runs
+- Began adding registration and login functionality
+
 8/5/2019
 - Completely remade using node
 - Express and EJS now in use
