@@ -3,13 +3,13 @@
     <div class="container container-fluid">
         <h1>Login</h1>
     
-        <form action="/register" method="POST">
+        <form action="/login" method="POST">
             <input type="text" name="username" placeholder="username">
             <input type="text" name="password" placeholder="password">
-            <button>Submit</button>
+            <button type="submit">Submit</button>
         </form>
+        <div><a href="/register">Register new account</a></div>
         <div><a href="/">forgot password</a></div>
-        <div><a href="/">forgot username</a></div>
     </div>
 
 <% include partials/footer %>
