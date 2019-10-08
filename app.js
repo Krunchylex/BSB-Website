@@ -1,11 +1,12 @@
 var express       = require("express"),
     app           = express(),
     bodyParser    = require("body-parser"),
-    mysql         = require("mysql"),
+    pgp           = require("pg-promise"),
     passport      = require("passport"),
     localStrategy = require("passport-local"),
     User          = require("./models/user"),
-    flash         = require("connect-flash") ;
+    flash         = require("connect-flash"),
+    db            = pgp('localhost:69420/database') ;
 
 // module setup
 
