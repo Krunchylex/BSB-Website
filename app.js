@@ -1,12 +1,13 @@
 var express       = require("express"),
     app           = express(),
     bodyParser    = require("body-parser"),
-    pgp           = require("pg-promise"),
+    //pgp           = require("pg-promise"),
+    //db            = pgp('localhost:69420/database'),
     passport      = require("passport"),
     localStrategy = require("passport-local"),
     User          = require("./models/user"),
-    flash         = require("connect-flash"),
-    db            = pgp('localhost:69420/database') ;
+    flash         = require("connect-flash") ;
+    
 
 // module setup
 
@@ -15,6 +16,7 @@ app.set("view engine", "ejs") ;
 app.use(express.static(__dirname + "/public")) ;
 app.use(flash()) ;
 
+/*
 // passport setup
 
 app.use(require("express-session")({
@@ -34,6 +36,7 @@ app.use(function(req, res, next){
     res.locals.success = req.flash("success") ;
     next() ;
 })
+*/
 
 // page routes
 
@@ -41,12 +44,20 @@ app.get("/", function(req, res){
     res.render("index") ;
 }) ;
 
-app.get("/runs", function(req, res){
-    res.render("runs") ;
+app.get("/attend", function(req, res){
+    res.render("attend") ;
 }) ;
 
-app.get("/about", function(req, res){
-    res.render("about") ;
+app.get("/schedule", function(req, res){
+    res.render("schedule") ;
+}) ;
+
+app.get("/faq", function(req, res){
+    res.render("faq") ;
+}) ;
+
+app.get("/staff", function(req, res){
+    res.render("staff") ;
 }) ;
 
 // authentication routes
