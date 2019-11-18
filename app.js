@@ -6,8 +6,8 @@ var express       = require("express"),
     passport      = require("passport"),
     localStrategy = require("passport-local"),
     User          = require("./models/user"),
+    path          = require('path'),
     flash         = require("connect-flash") ;
-    
 
 // module setup
 
@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({extended: true})) ;
 app.set("view engine", "ejs") ;
 app.use(express.static(__dirname + "/public")) ;
 app.use(flash()) ;
+app.use(express.static(path.join(__dirname, 'public')));
 
 /*
 // passport setup
