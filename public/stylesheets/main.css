@@ -1,12 +1,18 @@
 body {
     padding-top: 50px ;
+
 }
 
-button {
-    width: 100% ;
+.container-fluid {
+    background-color: #b51212 ;
+    padding: 0px ;
+}
+
+#pageContent {
+    border-radius: 10px ;
+    background-color: #c7c5c5 ;
 }
 
 input[type=text] {
     width: 100% ;
 }
-
