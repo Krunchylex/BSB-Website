@@ -9,27 +9,31 @@ p {
     text-align: left ;
 }
 
+hr {
+    border-color: #b51212 ;
+    border-width: 2px ;
+}
+
 .jumbotron {
     background: url(../images/streamroomred.jpg) ;
     background-size: cover ;
     color: white ;
     text-shadow: 2px 2px gray ;
-    padding: 50px 20px ;
-    margin: 0px ;
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive ;
 }
 
-.container-fluid {
-    background-color: #b51212 ;
-    padding: 0px 0px 40px 0px ;
+h2 {
+    font-size: 40px ;
+    font-weight: 700 ;
 }
 
-.navbar-brand {
-    padding: 0px 
+.container-fluid {
+    background-color: #b51212 ;
 }
+
 
 .nav-link {
     font-family: 'Tomorrow', sans-serif ;
@@ -37,7 +41,6 @@ h1 {
 }
 
 .fab {
-    padding: 0px 7px ;
     color: #868e96 ;
 }
 
@@ -49,20 +52,8 @@ h1 {
     list-style-type: none ;
 }
 
-.mainDates {
-    border: 3px solid #b51212 ;
-    border-radius: 10px ;
-    margin: 5px 20px ;
-    padding: 5px ;
-}
-
-.mainDates h1 {
-    font-size: 20px ;
-}
-
 .pageContent {
     background-color: #c7c5c5 ;
-    padding: 20px ;
 }
 
 #home {
